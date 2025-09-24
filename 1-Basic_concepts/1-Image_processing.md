@@ -1,5 +1,11 @@
+# What is an image?
+A digital image is a two-dimensional matrix or array of pixels (picture elements), where each pixel has a specific numerical value representing its intensity or color at a given spatial coordinate.
+In a grayscale image, each pixel is coded by 1 byte or 8 bits. 
+However, in a color image (RGB image), each pixel is coded by 3 bytes or 24 bits as the stack of 3 color channels (Red, Green and Blue). 
+Each color channel (R/G/B in color image or black/while in grayscale image) has integer values from 0 to 255 (in total, 256 values = 2^8).
+
 # What is image processing?
-Image processing is a fundamental field that focuses on altering or improving digital images using various methods and tools. 
+Image processing is a fundamental field that focuses on altering or improving digital images using various methods and tools to transform pixels. 
 These transformations are vital as they not only improve aesthetics but also make images more suitable for analysis, especially in biological research. 
 Here are examples of how image processing can be applied in biological and medical fields:
 - It can help in noise reduction, contrast enhancement, and reconstruction of images in some cases. Therefore, it can enhance the image quality, extracting useful information from microscopy and medical images (MRI, CT scans, X-rays, etc).
